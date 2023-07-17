@@ -6,7 +6,7 @@
 <a
 	{href}
 	target="_blank"
-	class="rounded-full p-2 w-14 h-14 bg-white/50 hover:bg-white hover:scale-105 transition-all duration-300"
+	class="h-14 w-14 rounded-full bg-white/50 p-2 transition-all duration-300 hover:scale-105 hover:bg-white"
 >
-	<img src={icon} class="pointer-events-none select-none object-contain aspect-square" alt="" />
+	<img src={icon} class="pointer-events-none aspect-square select-none object-contain" alt="" />
 </a>

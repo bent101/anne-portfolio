@@ -7,22 +7,25 @@
 </script>
 
 <div class="mx-auto max-w-6xl px-8 py-16">
-	<header class="sticky bg-purple-200 py-4 top-0">
-		<div class="flex gap-2">
-			<h1 class="text-5xl sm:text-6xl font-serif font-bold mr-4">Anne Dyke</h1>
-			<Bubble href="https://www.youtube.com/@AnneDykeFlute/videos" icon={youtube} />
-			<Bubble href="mailto:annedyke@gmail.com" icon={email} />
-		</div>
+	<header class="sticky top-0 bg-purple-200 py-4">
+		<h1 class="font-serif text-5xl font-bold sm:text-6xl">
+			Anne Dyke
+			<div class="inline-flex ml-4 translate-y-2 gap-2">
+				<Bubble href="https://www.youtube.com/@AnneDykeFlute/videos" icon={youtube} />
+				<Bubble href="mailto:annedyke@gmail.com" icon={email} />
+			</div>
+		</h1>
+
 		<h2 class="text-2xl font-bold">Professional Flutist in Raleigh</h2>
 	</header>
 
-	<img
-		src={anne}
-		alt="Anne Dyke's headshot"
-		class="sm:float-right mb-4 float-none w-[272px] select-none mx-auto sm:ml-8 rounded-2xl"
-	/>
+	<div
+		class="float-none mb-4 w-[272px] select-none bg-white/50 rounded-xl mx-auto overflow-clip h-[320px] sm:float-right sm:ml-8"
+	>
+		<img src={anne} class=" object-contain" alt="Anne Dyke's headshot" />
+	</div>
 
-	<section class="text-black/90 text-lg sm:text-base">
+	<section class="text-lg text-black/90 sm:text-base">
 		<p class="pb-4">
 			A native of North Carolina, Anne is a professional flutist who performs and teaches in the
 			Raleigh area. Her resume includes teaching lessons to beginning, intermediate and advanced
@@ -67,7 +70,7 @@
 				target="_blank">Anne Dyke Flute</a
 			>
 			and play a duet with her!
-			<img src={note} alt="" class="inline w-6 rotate-3" />
+			<img src={note} alt="" class="inline w-6 rotate-3 select-none pointer-events-none" />
 		</p>
 	</section>
 </div>
