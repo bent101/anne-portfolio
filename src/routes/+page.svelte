@@ -12,7 +12,7 @@
 			Anne Dyke
 			<div class="inline-flex ml-4 translate-y-2 gap-2">
 				<Bubble href="https://www.youtube.com/@AnneDykeFlute/videos" icon={youtube} />
-				<Bubble href="mailto:annedyke@gmail.com" icon={email} />
+				<Bubble href="mailto:annedyke64@gmail.com" icon={email} />
 			</div>
 		</h1>
 
