@@ -7,7 +7,7 @@
 </script>
 
 <div class="mx-auto max-w-6xl px-8 py-16">
-	<header class="sticky bg-gray-200 py-4 top-0">
+	<header class="sticky bg-purple-200 py-4 top-0">
 		<div class="flex gap-2">
 			<h1 class="text-5xl sm:text-6xl font-serif font-bold mr-4">Anne Dyke</h1>
 			<Bubble href="https://www.youtube.com/@AnneDykeFlute/videos" icon={youtube} />
@@ -19,10 +19,10 @@
 	<img
 		src={anne}
 		alt="Anne Dyke's headshot"
-		class="sm:float-right mb-4 float-none w-60 mx-auto sm:ml-8 rounded-2xl"
+		class="sm:float-right mb-4 float-none w-[272px] select-none mx-auto sm:ml-8 rounded-2xl"
 	/>
 
-	<section class="text-gray-800 text-lg sm:text-base">
+	<section class="text-black/90 text-lg sm:text-base">
 		<p class="pb-4">
 			A native of North Carolina, Anne is a professional flutist who performs and teaches in the
 			Raleigh area. Her resume includes teaching lessons to beginning, intermediate and advanced
