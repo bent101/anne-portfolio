@@ -1,6 +1,7 @@
 <script>
 	import Bubble from "$lib/components/Bubble.svelte";
 	import anne from "$lib/images/anne.jpeg";
+	import anne2 from "$lib/images/anne2.jpeg";
 	import youtube from "$lib/images/youtube.png";
 	// import email from "$lib/images/email.jpeg";
 	import note from "$lib/images/note.png";
@@ -35,7 +36,7 @@
 			</div>
 
 			<form
-				class="flex max-w-sm flex-1 select-none flex-col gap-2"
+				class="flex flex-1 select-none flex-col gap-2"
 				action="https://formsubmit.co/annedyke64@gmail.com"
 				method="post"
 			>
@@ -55,9 +56,9 @@
 				/>
 				<textarea
 					required
-					class="resize-none rounded-md bg-white/50 px-4 py-2 text-black placeholder:text-black/60"
+					class="rounded-md bg-white/50 px-4 py-2 text-black placeholder:text-black/60"
 					name="message"
-					rows="5"
+					rows="7"
 					placeholder="Message"
 				/>
 				<button
@@ -95,6 +96,12 @@
 				piccoloist of the Chicago Symphony Orchestra, where she studied orchestral and solo
 				repertoire in depth.
 			</p>
+
+			<div
+				class="float-none mb-4 h-[320px] w-[235px] origin-left scale-90 select-none overflow-clip rounded-xl bg-white/50 sm:float-left sm:mr-8 sm:scale-100"
+			>
+				<img src={anne2} class="object-contain" alt="Anne Dyke with her flute and piano" />
+			</div>
 
 			<p class="pb-4">
 				In addition to teaching at her home studio, Anne was also Adjunct Flute Instructor at UNC-CH
