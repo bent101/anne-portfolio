@@ -36,7 +36,7 @@
 
 			<form
 				class="flex max-w-sm flex-1 select-none flex-col gap-2"
-				action="https://formsubmit.co/c6b067368367160fcdb4efd18ede6a0b"
+				action="https://formsubmit.co/annedyke64@gmail.com"
 				method="post"
 			>
 				<input
