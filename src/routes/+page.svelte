@@ -17,7 +17,7 @@
 			</div>
 		</h1>
 
-		<h2 class="mb-4 text-xl font-bold">Professional Flutist in Raleigh</h2>
+		<h2 class="mb-4 text-xl font-bold">Professional Flutist and Teacher in Raleigh</h2>
 	</header>
 
 	<main class="px-8">
